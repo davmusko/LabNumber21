@@ -25,7 +25,7 @@ input[type="radio"] {
 
 
 	<form action="success" onsubmit="return validate();" method="get">
-		First Name: <input type="text" name="fName" placeholder="First Name" required onchange="validateName()"><br>
+		First Name: <input type="text" name="fName" placeholder="First Name" required><br>
 		Last Name: <input type="text" name="lName"placeholder="Last Name" required onchange="validateName()"><br> 
 		Email: <input type="email" name="email" placeholder="name@place.com" required onchange="validateEmail()"><br>
 		Phone Number: <input type="tel" name="phone" placeholder="123-555-1234" title="ex. XXX-XXX-XXXX or XXXXXXXXXX" required onchange="validateNumber()"><br>
