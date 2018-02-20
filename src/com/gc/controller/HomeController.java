@@ -20,7 +20,7 @@ public class HomeController {
 		return "registration";
 	}
 	@RequestMapping("success")
-	public ModelAndView registerSuccess(@RequestParam("fName")String firstName,@RequestParam("lName")String lastName,@RequestParam("gender")String gender,@RequestParam("test")String checkbox) {
+	public ModelAndView registerSuccess(@RequestParam("fName")String firstName,@RequestParam("lName")String lastName,@RequestParam("gender")String gender) {
 		String sayHello = "Hello, "+ firstName + " "+ lastName ;
 		return new ModelAndView("success","helloMsg",sayHello);
 	}
